@@ -1,11 +1,11 @@
 import machine
 import utime
 import uos
-from chittiSat.pressure import *
-from chittiSat.assistant import *
-from chittiSat.sdcard import *
-from chittiSat.mq2 import MQ2
-from chittiSat.gyro import MPU6050
+from Sat.pressure import *
+from Sat.assistant import *
+from Sat.sdcard import *
+from Sat.mq2 import MQ2
+from Sat.gyro import MPU6050
 
 #i2c configration
 i2c=machine.I2C(0, scl=machine.Pin(1), sda=machine.Pin(0))
